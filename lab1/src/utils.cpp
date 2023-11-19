@@ -5,7 +5,8 @@ void readDIMACSFile(std::string filename, std::vector<std::set<int>> &edges,
                     std::vector<int> &vertices) {
   std::ifstream DIMACSFile(filename);
   if (!DIMACSFile) {
-    throw("File does not exist");
+    std::cerr << "Can't open a DIMACS file\n";
+    throw std::exception();
   }
 
   std::string line;
