@@ -1,6 +1,0 @@
-#ifndef MAX_CLIQUE_PROBLEM_H
-#define MAX_CLICUE_PROBLEM_H
-
-
-
-#endif // MAX_CLIQUE_PROBLEM_H
