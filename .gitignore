@@ -2,3 +2,6 @@
 .vscode
 */build/*
 */bin/*
+*/data/*
+*/*.csv
+*/__pycache__/*
